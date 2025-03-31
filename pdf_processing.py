@@ -24,4 +24,4 @@ async def upload_to_vercel(
     question: str = Form(...),  # ✅ Explicitly mark as Form data
     file: UploadFile = Form(...)
 ):
-    return await send_file_to_vercel(question, file, "https://tds-ga4-9-telvinvargheses-projects.vercel.app")
+    return await send_file_to_vercel(question, file, "https://tds-ga4-9-sanjita-prabhus-projects.vercel.app")
